@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FlinkConsumerSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0mFlinkConsumerSpec[0m
+[0m[[0m[0minfo[0m] [0m[0mcorrect flink consumer should[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m account for out of order events when allowed lateness is 3[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m drop out of order events when allowed lateness is 0[0m
+[0m[[0m[0minfo[0m] [0m[0mincorrect flink consumer should[0m
+[0m[[0m[31merror[0m] [0m[0m  [33mx[0m account for out of order events when allowed lateness is 3[0m
+[0m[[0m[31merror[0m] [0m[0m   List((2,machine,Metrics(2,2)), (5,machine,Metrics(4.5,4.5)), (5,machine,Metrics(6,6)), (8,machine,Metrics(7,7))) != List((2,machine,Metrics(2,2)), (5,machine,Metrics(5,5)), (5,machine,Metrics(4.5,4.5)), (5,machine,Metrics(6,6)), (8,machine,Metrics(7,7))) (FlinkConsumerSpec.scala:95)[0m
+[0m[[0m[31merror[0m] [0m[0mMissing (1)[0m
+[0m[[0m[31merror[0m] [0m[0m(5,machine,Metrics(5,5))[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m  [32m+[0m drop out of order events when allowed lateness is 0[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal for specification FlinkConsumerSpec[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mFinished in 3 seconds, 874 ms[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36m[0m[36m4 examples, 1 failure, 0 error[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for specs2 not available.[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 4, Failed 1, Errors 0, Passed 3[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	FlinkConsumerSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(flink / Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

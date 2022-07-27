@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 31 products, 6 sources, 10 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/flink/src/main/scala/flink/util/Util.scala, ${BASE}/flink/src/main/scala/flink/serde/FlinkSerializer.scala, ${BASE}/flink/src/main/scala/flink/pipeline/FlinkCorrectPipeline.scala, ${BASE}/flink/src/main/scala/flink/serde/FlinkDeserializer.scala, ${BASE}/flink/src/main/scala/flink/pipeline/FlinkIncorrectPipeline.scala, ${BASE}/flink/src/main/scala/flink/model/Metrics.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
